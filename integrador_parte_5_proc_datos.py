@@ -38,7 +38,4 @@ def procesar_datos(df):
     # Guardando el DataFrame procesado como un archivo CSV
     df.to_csv('datos_procesados.csv', index=False)
 
-# Ejemplo de uso de la función
-# Supongamos que tienes un DataFrame llamado df
-# df = pd.read_csv('tu_archivo.csv')
 procesar_datos(df)
